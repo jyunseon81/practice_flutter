@@ -8,16 +8,9 @@ void main() {
   runApp(App());
 }
 
-class App extends StatefulWidget {
-  int counter = 0;
-
+class App extends StatelessWidget {
   const App({super.key});
 
-  @override
-  State<App> createState() => _AppState();
-}
-
-class _AppState extends State<App> {
   @override // flutter에 관한 것이 아니고 dart 프로그래밍 언어에 관한 것임
   Widget build(BuildContext context) {
     return MaterialApp(
